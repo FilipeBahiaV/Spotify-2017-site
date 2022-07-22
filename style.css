@@ -1,0 +1,65 @@
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#dropdown a{
+    color: white;
+}
+body{
+    background-image: url(imagens/capa.png), url(imagens/ruido.png),
+    linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+}
+.capa{
+    text-align: center;
+}
+.capa a{
+    border-radius: 20px;
+}
+.capa h1{
+    font-weight: bold;
+    color: white;
+}
+.divi{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+.tem h2, .tem h3{
+    color: #7c26f8;
+    font-weight: bold;
+}
+#recursos h3{
+    color: #9bf0e1;
+}
+#recursos h2{
+    font-weight: bold;
+    color: white;
+}
+#recursos p{
+    color: white;
+}
+#rotate{
+    transform: rotate(30deg);
+    padding-left: 80px;
+    z-index: 1;
+    position: relative;
+}
+#foot{
+    position: relative;
+    z-index: 2;
+    background-color: black;
+}
+#foot a{
+    text-decoration: none;
+    color: white;
+}
+#foot h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
